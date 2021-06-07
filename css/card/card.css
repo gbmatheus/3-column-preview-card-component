@@ -1,0 +1,20 @@
+.card {
+  height: calc(400px + 3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.card-sedans {
+  background: var(--bright-orange);
+}
+
+.card-suvs {
+  background: var(--dark-cyan);
+}
+
+.card-luxury {
+  background: var(--very-dark-cyan);
+}

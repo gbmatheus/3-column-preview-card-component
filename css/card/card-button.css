@@ -1,11 +1,11 @@
 .card__button {
   background: var(--very-light-gray);
-  height: 50px;
-  width: 150px;
   border: none;
   border-radius: 32px;
+  height: 50px;
   text-transform: capitalize;
   transition: background 1s;
+  width: 150px;
 }
 
 .card__button-sedans {
@@ -22,21 +22,21 @@
 
 .card__button-sedans:hover,
 .card__button-sedans:active {
-  color: var(--very-light-gray);
-  border: 1px solid var(--very-light-gray);
   background: var(--bright-orange);
+  border: 1px solid var(--very-light-gray);
+  color: var(--very-light-gray);
 }
 
 .card__button-suvs:hover,
 .card__button-suvs:active {
-  color: var(--very-light-gray);
-  border: 1px solid var(--very-light-gray);
   background: var(--dark-cyan);
+  border: 1px solid var(--very-light-gray);
+  color: var(--very-light-gray);
 }
 
 .card__button-luxury:hover,
 .card__button-luxury:active {
-  color: var(--very-light-gray);
-  border: 1px solid var(--very-light-gray);
   background: var(--very-dark-cyan);
+  border: 1px solid var(--very-light-gray);
+  color: var(--very-light-gray);
 }

@@ -1,8 +1,8 @@
 .card {
-  height: calc(400px + 3rem);
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  height: calc(400px + 3rem);
   justify-content: space-between;
   padding: 3rem;
 }

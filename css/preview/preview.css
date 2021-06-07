@@ -1,7 +1,7 @@
 .preview {
   border-radius: 10px;
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 0) {

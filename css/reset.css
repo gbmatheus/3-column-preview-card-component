@@ -1,10 +1,10 @@
 * {
+  color: var(--very-light-gray);
+  box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
-  color: var(--very-light-gray);
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 *:before,
@@ -13,11 +13,11 @@
 }
 
 body {
+  align-items: center;
   background: var(--very-light-gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 ul,

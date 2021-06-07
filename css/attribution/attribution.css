@@ -1,8 +1,10 @@
 .attribution {
+  bottom: 0;
   color: hsl(228, 45%, 44%);
-
   font-size: 11px;
+  position: fixed;
   text-align: center;
+  z-index: -1;
 }
 
 .attribution a {
